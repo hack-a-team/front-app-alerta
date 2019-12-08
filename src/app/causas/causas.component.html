@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title [routerLink]="'/home'">
+        Alerta
+      </ion-title>
+      <ion-buttons slot="primary">
+        <ion-button>
+          <ion-icon name="contact"></ion-icon>
+          Perfil
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+  
+    <ion-card class="card-background-page" > 
+      <img src="../../assets/slide.png" [routerLink]="'/house-info'" />
+      <div class="card-title" [routerLink]="'/house-info'" ></div>
+      <div class="card-subtitle" [routerLink]="'/house-info'" ></div>
+    </ion-card>
+    <ion-card class="card-background-page" > 
+      <img src="../../assets/slide.png" [routerLink]="'/aprender'" />
+      <div class="card-title" [routerLink]="'/aprender'"></div>
+      <div class="card-subtitle" [routerLink]="'/aprender'"></div>
+    </ion-card>
+    <ion-card class="card-background-page" > 
+      <img src="../../assets/slide.png" [routerLink]="'/ensinar'" />
+      <div class="card-title" [routerLink]="'/ensinar'"></div>
+      <div class="card-subtitle" [routerLink]="'/ensinar'"></div>
+    </ion-card>
+  </ion-content>

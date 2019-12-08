@@ -1,8 +1,24 @@
-.positionAlert {
+.wrapper {
+    text-align: center;
+}
 
-margin-left: 35%;
-margin-right: 50%;
-margin-top: 120%;
-width: 27%;
-height: 15%;
+.positionAlert {
+    position: absolute;
+    top: 50%;
+}
+
+.buttonAlert {
+    color: #00B7FF;
+    width: 66%;
+    height: 41%;
+    margin-top: -90px;
+    margin-left: 60px;
+}
+
+.frase {
+    margin-left: 30px;
+}
+
+.textAlertar {
+    margin-top: 380px;
 }

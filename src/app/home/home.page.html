@@ -1,13 +1,31 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title style="text-align: center;">
-      Alerta
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-header style="background-color: black;">
+    <ion-toolbar>
+      <ion-title [routerLink]="'/home'">
+        Alerta
+      </ion-title>
+      <ion-buttons slot="primary">
+        <ion-button>
+          <ion-icon name="contact"></ion-icon>
+          Perfil
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
 
 <ion-content>
-  <img src="assets/img/appicon.svg" alt="Ionic logo">
-  <ion-fab-button routerLink="/tutorial" class="positionAlert" color="danger">Alerta</ion-fab-button>
+  <div class="frase">
+  <h2>Olá, Francisco</h2>
+  <h2>Há algo de errado?</h2>
+  </div>
+<div class="wrapper">
+  <ion-fab-button routerLink="/causas" class="positionAlert buttonAlert">
+     <img id="icon-alerta" src="../../assets/icon-alerta.svg" >
+  </ion-fab-button>
+  <div class="textAlertar">
+  <h2>Alertar</h2>
+</div>
+</div>
+
+
 
 </ion-content>
