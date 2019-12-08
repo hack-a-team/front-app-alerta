@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { CausasComponent } from './causas.component';
+import { ModalComponent } from '../modal/modal.component';
 
 @NgModule({
   imports: [

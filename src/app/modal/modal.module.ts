@@ -4,8 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { HomePage } from './home.page';
-import { ModalComponent } from '../modal/modal.component';
+import { ModalComponent } from './modal.component';
 
 @NgModule({
   imports: [
@@ -15,11 +14,11 @@ import { ModalComponent } from '../modal/modal.component';
     RouterModule.forChild([
       {
         path: '',
-        component: HomePage
+        component: ModalComponent
       }
     ])
   ],
-  declarations: [HomePage, ModalComponent],
-  entryComponents: [ModalComponent]
+  declarations: [ModalComponent],
+  exports: [ModalComponent]
 })
-export class HomePageModule {}
+export class ModalPageModule {}

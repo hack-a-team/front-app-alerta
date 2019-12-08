@@ -13,20 +13,7 @@
   </ion-header>
   
   <ion-content>
-  
-    <ion-card class="card-background-page" > 
-      <img src="../../assets/slide.png" [routerLink]="'/house-info'" />
-      <div class="card-title" [routerLink]="'/house-info'" ></div>
-      <div class="card-subtitle" [routerLink]="'/house-info'" ></div>
-    </ion-card>
-    <ion-card class="card-background-page" > 
-      <img src="../../assets/slide.png" [routerLink]="'/aprender'" />
-      <div class="card-title" [routerLink]="'/aprender'"></div>
-      <div class="card-subtitle" [routerLink]="'/aprender'"></div>
-    </ion-card>
-    <ion-card class="card-background-page" > 
-      <img src="../../assets/slide.png" [routerLink]="'/ensinar'" />
-      <div class="card-title" [routerLink]="'/ensinar'"></div>
-      <div class="card-subtitle" [routerLink]="'/ensinar'"></div>
-    </ion-card>
+    <div class="ion-padding">
+      <ion-button expand="block" (click)="showModalOne()"></ion-button>
+    </div>
   </ion-content>
