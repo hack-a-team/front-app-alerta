@@ -1,0 +1,11 @@
+{
+    "android": {
+        "release": {
+            "keystore": "my-release-key.keystore",
+            "storePassword": "AugustoBondanca132231",
+            "alias" : "alias_name",
+            "password": "AugustoBondanca132231",
+            "keystoreType": ""
+        }
+    }
+}
